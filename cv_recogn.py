@@ -175,6 +175,7 @@ def is_someone(input: int):
             if results.multi_face_landmarks:
                 i = 0
                 presence = True
+                time.sleep(0.5)
             else:
                 presence = False
             
